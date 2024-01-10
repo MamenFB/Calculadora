@@ -1,0 +1,20 @@
+.boton-clear {
+  height: 80px;
+  font-size: 1.6em;/*unidad relativa 1.6 veces el tamño dde su contenedor*/
+  display: flex;
+  flex: 1;
+  background-color: #ac0246;
+  margin-top: 8px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  border: 2px solid white; 
+  border-radius: 45px;
+  cursor: pointer; 
+  user-select: none; /* esto hace que no se pueda selecionaer el texto del boton*/    
+}
+
+.boton-clear:hover {
+  background-color: #ebb000;
+}
